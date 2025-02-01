@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "yarn add --prefix backend && yarn add --prefix frontend && yarn run build --prefix frontend "
-  ,"start": "yarn run start --prefix backend"
-  
+    "build": "yarn install --prefix backend && yarn install --prefix frontend && yarn build --prefix frontend",
+    "start": "yarn run start --prefix backend"
   },
   "license": "MIT"
 }
