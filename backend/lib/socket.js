@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // Frontend origin
+    origin: "https://chatpal-w16v.onrender.com", // Frontend origin
     methods: ["GET", "POST"],
     credentials: true,
   },
