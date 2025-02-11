@@ -1,0 +1,5 @@
+###
+GET https://chatpal-api.onrender.com/api/v1/messages/users
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2N2E4YjFkOTg0YjM1NGNhYWYyOTg3OGMiLCJpYXQiOjE3MzkyOTU1ODMsImV4cCI6MTczOTkwMDM4M30.c2LvUbAKiheTkLBS6HQZmGFvLxLGoKpQusm8UjkBHmI
+Content-Type: application/json
